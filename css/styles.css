@@ -1,0 +1,184 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#hero{
+    height:150vh;
+    width: 100%;
+    background-image: url("/assets/main.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 1rem;
+}
+.dancing-script{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+.fred{
+    font-family: 'Fredericka the Great', cursive;
+}
+.offer{
+    font-size: 3rem;
+}
+.fred-large{
+    font-size: 4.5rem;
+}
+.left-section-1{
+    margin-bottom: 0;
+}
+.left-section-1 *{
+    line-height: 2.5rem;
+}
+.left-section-1 .headline{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.order-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.nav-span{
+    font-weight: 700;
+    margin-right: 3.5rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+.nav-number{
+    padding-top: 0;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 3.5rem;
+}
+.navbar-nav li a{
+    color: black;
+    letter-spacing: 0.3rem;
+    font-size: small;
+    font-weight: 700;
+}
+.navbar-section{
+    width: 100%;
+    padding: 0 1.2rem;
+}
+.left-section{
+    padding-top: 5rem;
+}
+.left-section *{
+    margin-bottom: 2rem;
+}
+.order{
+    background-color: #fee100;
+    font-size: small;
+}
+.events{
+    margin-top: 5rem;
+}
+.slider{
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    /* position: relative; */
+}
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+}
+.slider .owl-item.active.center .slider-card::before{
+    background: none;
+}
+.slider-card{
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+.slider-card::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 1rem;
+    border: 0;
+}
+.owl-dot.active .dot{
+    background-color: #fee100;
+}
+.owl-next span{
+    padding: 1rem;
+    padding-top: 0;
+    font-size: 3rem;
+    background-color: none;
+    border-radius: 5;
+}
+.owl-prev span{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.owl-next span:hover{
+    background-color: none;
+}
+.upcoming-left{
+    background: url("/assets/up\ 1.jpg") no-repeat;
+    background-size: cover;
+    padding: 2.5rem;
+    height: 25rem;
+    line-height: 2.5rem;
+}
+.upcoming{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.upcoming-right-1{
+    background: url("/assets/up\ 2.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 1.5rem;
+    line-height: 2rem;
+}
+.upcoming-right-2{
+    background: url("/assets/up\ 3.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 1.5rem;
+    line-height: 2rem;
+}
+.submit-btn{
+    background-color: #fee100;
+}
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/assets/footer.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height:90vh;
+    width: 100%;
+}
+.icon{
+    color: #fee100;
+}
+.copyright{
+    margin-top: 15rem;
+}
+.logo i{
+    color: black;
+    padding: 0.5rem;
+    border-radius: 100%;
+    background: white;
+    margin: 0.2rem;
+}
+.footer{
+    margin-top: 3rem;
+}
+.text-row{
+    /* border: 5px solid; */
+    margin-top: 5rem;
+}
+.headline{
+    font-weight: 1000;
+}
