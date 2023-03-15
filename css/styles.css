@@ -17,11 +17,11 @@ body{
     width: clamp(8rem,15vw, 17rem);
 }
 .express{
-    font-size: clamp(0.7rem, 2.125vw, 0.75rem);
+    font-size: clamp(0.55rem, 2.125vw, 0.75rem);
     font-weight: 600;
 }
 .number{
-    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    font-size: clamp(0.8rem, 3.5vw, 1.1rem);
     font-weight: 900;
 }
 .smartphone{
@@ -44,7 +44,8 @@ body{
     font-size: 4.5rem;
 }
 .left-section{
-    min-width: 410px;
+    width: max-content;
+    margin-left: 10%;
 }
 .left-section h3{
     font-size: clamp(2.7rem, 4vw, 4rem);
@@ -215,6 +216,10 @@ hr{
     background-repeat: no-repeat;
     height:70vh;
     width: 100%;
+    
+}
+.footer *{
+    font-size: clamp(0.75rem,2.5vw, 1rem);
 }
 .icon{
     color: #fee100;
@@ -259,4 +264,11 @@ hr{
     .text-content p{
         display: none;
     }
+}
+@media (max-width: 550px){
+    .left-section{
+        width: 90%;
+        margin-left: auto;
+    }
+
 }
